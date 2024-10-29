@@ -17,10 +17,10 @@ const user: User = {
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-  { name: 'Reports', href: '#', current: false },
+  { name: 'My routine', href: '#', current: false },
+  { name: 'My doctor', href: '#', current: false },
+  { name: 'Search doctors', href: '#', current: false },
+  { name: 'Pharmacy', href: '#', current: false },
 ];
 
 const userNavigation = [

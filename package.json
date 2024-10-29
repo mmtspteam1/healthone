@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
     "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
