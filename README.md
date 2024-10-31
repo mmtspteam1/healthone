@@ -19,13 +19,6 @@
   
   HealthOne is a comprehensive healthcare management application designed for both doctors and patients, focusing on secure and decentralized health data management. This platform allows doctors and patients to seamlessly interact in a secure environment, where patient data is easily accessible but remains confidential and protected.
 
-Key Features
-Doctor and Patient Portals: Separate dashboards for doctors and patients, providing relevant features tailored to each user type.
-Medical History & Records: Doctors can access and manage patient medical history, helping streamline care and treatment.
-Patient Consent Management: Patients control data sharing, ensuring their information is accessed securely and only with consent.
-AI-Assisted Interaction: Patients can interact with an AI bot to manage appointments, receive prescriptions, and get personalized health assistance.
-Blockchain Integration: Patient data is securely managed through blockchain/IPFS for decentralized storage, enhancing privacy and data integrity.
-Role-Based Authentication: Using NEAR Protocol with NextAuth and Clerk, HealthOne supports secure login and personalized access based on user roles.
 
 ## How to Integrate HealthOne
 
