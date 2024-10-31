@@ -33,9 +33,9 @@ export default function Navbar() {
                     {/* Desktop Navigation Links */}
                     <ul className="hidden md:flex space-x-6 text-white">
                         <li><Link href="/" className="hover:text-gray-300 transition duration-200">Home</Link></li>
-                        <li><Link href="#about" id="about" className="hover:text-gray-300 transition duration-200">About Us</Link></li>
-                        <li><Link href="#features" id="features" className="hover:text-gray-300 transition duration-200">Features</Link></li>
-                        <li><Link href="#team" className="hover:text-gray-300 transition duration-200">Team</Link></li>
+                        <li><Link href="/aboutus" className="hover:text-gray-300 transition duration-200">About Us</Link></li>
+                        <li><Link href="/features" className="hover:text-gray-300 transition duration-200">Features</Link></li>
+                        <li><Link href="/team" className="hover:text-gray-300 transition duration-200">Team</Link></li>
                         <li><Link href="/dashboard" className="hover:text-gray-300 transition duration-200">Dashboard</Link></li>
                     </ul>
 
