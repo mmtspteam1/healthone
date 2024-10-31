@@ -5,7 +5,7 @@ const AboutUs: React.FC = () => {
         <div className="bg-white sm:flex items-center">
             <div >
                 <div className="image object-center text-center">
-                    <Image src="https://i.imgur.com/WbQnbas.png" alt="About Us" 
+                    <Image src="/assets/about.jpeg" alt="About Us" 
                     width={500} // Set an arbitrary width to satisfy Next.js requirement
                     height={300} // Set an arbitrary height to satisfy Next.js requirement
                     className="w-auto h-auto max-w-full" // Use Tailwind classes for respo
