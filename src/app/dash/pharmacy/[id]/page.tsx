@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { notFound } from 'next/navigation';
 import Modal from 'react-modal';
+import Image from 'next/image';
 
 type Medicine = {
   id: number;
@@ -82,7 +83,7 @@ const MedicineDetail = ({ params }: MedicineDetailProps) => {
       )}
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/3">
-          <img src={medicine.image} alt={medicine.name} className="w-full h-full object-contain rounded-lg shadow-md mb-4" />
+          <Image src={medicine.image} alt={medicine.name} className="w-full h-full object-contain rounded-lg shadow-md mb-4" />
         </div>
         <div className="w-full md:w-2/3 md:pl-8">
           <h1 className="text-4xl font-extrabold text-gray-800 mb-4">{medicine.name}</h1>
@@ -135,7 +136,7 @@ const MedicineDetail = ({ params }: MedicineDetailProps) => {
       >
         <h2 className="text-2xl font-bold mb-4 text-center">Buy {medicine.name}</h2>
         <div className="flex justify-center mb-4">
-          <img src={medicine.image} alt={medicine.name} className="w-48 h-48 object-contain" />
+          <Image src={medicine.image} alt={medicine.name} className="w-48 h-48 object-contain" />
         </div>
         <h3 className="text-lg mb-2 text-center text-black">Price: <span className="text-blue-600">{priceString}</span></h3>
         <div className="flex items-center justify-center mb-4">

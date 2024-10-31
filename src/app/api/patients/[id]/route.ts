@@ -1,9 +1,8 @@
-// src/app/api/patients/[id]/route.ts
-
+import { NextRequest } from 'next/server'; // Import NextRequest type
 import dbConnect from '../../../../lib/dbConnect'; // Ensure this path is correct
 import Patient from '../../../../models/Patient'; // Ensure this points to your Patient model
 
-export async function GET(request, { params }) {
+export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
   const { id } = params;
 
   await dbConnect();

@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { BellIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 // Define an interface for the API response
 interface ApiResponsePatient {
@@ -110,7 +111,7 @@ const Dashboard: React.FC = () => {
               <ul className="divide-y divide-gray-200">
                 {patients.map((patient) => (
                   <li key={patient._id} className="flex items-center p-4 hover:bg-gray-100">
-                    <img 
+                    <Image
                       src={patient.ImageURL}
                       alt={patient.Name} 
                       className="w-16 h-16 rounded-full mr-4"
