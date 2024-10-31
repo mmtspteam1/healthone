@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import AIChat from '@/app/components/AICHAT';
+import Image from 'next/image';
 
 interface Doctor {
   id: number;
@@ -59,7 +60,7 @@ const DoctorDetailsPage = () => {
     <div className="flex flex-col justify-center items-center min-h-screen bg-gray-500 p-6 relative">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="w-full h-56 flex justify-center items-center bg-gray-200">
-          <img
+          <Image
             className="w-auto h-full object-contain"
             src={doctor.image}
             alt={`${doctor.name}'s photo`}

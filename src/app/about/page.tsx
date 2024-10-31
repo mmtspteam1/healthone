@@ -1,11 +1,15 @@
 import React from 'react';
-
+import Image from 'next/image';
 const AboutUs: React.FC = () => {
     return (
         <div className="bg-white sm:flex items-center">
             <div >
                 <div className="image object-center text-center">
-                    <img src="https://i.imgur.com/WbQnbas.png" alt="About Us" />
+                    <Image src="https://i.imgur.com/WbQnbas.png" alt="About Us" 
+                    width={500} // Set an arbitrary width to satisfy Next.js requirement
+                    height={300} // Set an arbitrary height to satisfy Next.js requirement
+                    className="w-auto h-auto max-w-full" // Use Tailwind classes for respo
+                    />
                 </div>
             </div>
             <div className="sm:w-1/2 p-5">

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-
+import Image from 'next/image';
 type Medicine = {
   id: number;
   name: string;
@@ -57,7 +57,7 @@ export default function Home() {
           {filteredMedicines && filteredMedicines.length > 0 ? (
             filteredMedicines.map((medicine) => (
               <div key={medicine.id} className="border rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105">
-                <img
+                <Image
                   src={medicine.image}
                   alt={medicine.name}
                   className="w-full h-32 object-cover rounded-t-lg" // Adjust the image class

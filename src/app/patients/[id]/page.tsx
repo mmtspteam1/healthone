@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 const PatientDetailPage = ({ params }) => {
     const { id } = params; // Get the patient ID from the URL
@@ -31,7 +32,7 @@ const PatientDetailPage = ({ params }) => {
         <div className="container mx-auto p-4 flex items-center justify-center min-h-screen">
             <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-lg">
                 <h1 className="text-3xl font-bold mb-4 text-center text-blue-600">{patient.Name}</h1>
-                <img 
+                <Image
                     src={patient.url} 
                     alt={patient.Name} 
                     className="w-32 h-32 rounded-full mb-4 border-2 border-gray-300 shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl mx-auto" 

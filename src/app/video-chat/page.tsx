@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link';
-
+import Image from 'next/image';
 export default function VideoChat() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
@@ -9,7 +9,7 @@ export default function VideoChat() {
       <div className="flex space-x-8 mb-4">
         <Link href="/chatbot">
           <div className="flex flex-row items-center">
-            <img
+            <Image
               src="/asset/ai.png" // Ensure the image path is correct
               alt="AI"
               className="w-10 h-10 mb-2"

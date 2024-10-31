@@ -4,13 +4,23 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { BellIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
-interface Patient {
+// Define an interface for the API response
+interface ApiResponsePatient {
   _id: string; // MongoDB ObjectId as a string
   Name: string; // Match the case with your database key
-  Age: string;  // Keep as string to match your data format
+  Age: string; // Keep as string to match your data format
   Gender: string; // Match the case with your database key
-  MedicalCondition: string; // Adjusted field name
-  ImageURL?: string; // Optional field for patient image URL
+  'Medical Condition ': string; // Adjusted field name to match the API response
+  url?: string; // Optional field for patient image URL
+}
+
+interface Patient {
+  _id: string;
+  Name: string;
+  Age: string;
+  Gender: string;
+  MedicalCondition: string;
+  ImageURL?: string;
 }
 
 const navigation = [
@@ -25,7 +35,6 @@ const Dashboard: React.FC = () => {
   const [patients, setPatients] = useState<Patient[]>([]);
 
   useEffect(() => {
-    // Fetch patients data from the API
     const fetchPatients = async () => {
       try {
         const response = await fetch('/api/patients');
@@ -34,17 +43,17 @@ const Dashboard: React.FC = () => {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const data = await response.json();
-        console.log('Fetched patients:', data); // Log the fetched data for debugging
+        const data: ApiResponsePatient[] = await response.json();
+        console.log('Fetched patients:', data);
 
         // Map data to correct structure
-        const formattedData = data.map((patient: any) => ({
+        const formattedData = data.map((patient) => ({
           _id: patient._id,
           Name: patient.Name,
           Age: patient.Age,
           Gender: patient.Gender,
           MedicalCondition: patient['Medical Condition '].trim(), // Remove any trailing spaces
-          ImageURL: patient.url || 'https://imgv3.fotor.com/images/gallery/cartoon-character-generated-by-Fotor-ai-art-creator.jpg', // Use patient's image URL from 'url' or fallback
+          ImageURL: patient.url || 'https://imgv3.fotor.com/images/gallery/cartoon-character-generated-by-Fotor-ai-art-creator.jpg',
         }));
 
         setPatients(formattedData);
@@ -102,9 +111,9 @@ const Dashboard: React.FC = () => {
                 {patients.map((patient) => (
                   <li key={patient._id} className="flex items-center p-4 hover:bg-gray-100">
                     <img 
-                      src={patient.ImageURL} // Use the patient's image URL
+                      src={patient.ImageURL}
                       alt={patient.Name} 
-                      className="w-16 h-16 rounded-full mr-4" // Rounded image
+                      className="w-16 h-16 rounded-full mr-4"
                     />
                     <div className="flex-1">
                       <h3 className="text-lg font-bold text-gray-800">{patient.Name}</h3>

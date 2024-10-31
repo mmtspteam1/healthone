@@ -15,6 +15,7 @@ export async function GET(request, { params }) {
     }
     return new Response(JSON.stringify(patient), { status: 200 });
   } catch (error) {
+    console.error('Error fetching patient:', error); // Log the error for debugging
     return new Response(JSON.stringify({ message: 'Error fetching patient' }), { status: 500 });
   }
 }
