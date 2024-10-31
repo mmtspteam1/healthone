@@ -3,6 +3,7 @@ import Team from "./team/page"
 import Features from "./features/page";
 import AboutUs from "./about/page";
 import ContactUs from "./contact/page"
+import AIChat from "./components/AICHAT";
 
 export default function Home() {
     return (
@@ -12,7 +13,7 @@ export default function Home() {
         <Team/>
         <AboutUs/> 
         <ContactUs/>
-
+        <AIChat/>
         </div>
     );
 }
