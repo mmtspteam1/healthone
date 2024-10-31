@@ -1,7 +1,10 @@
 # HealthOne
 
-![HealthOne Logo](/public/assets/logo.png) <!-- Replace with your logo link -->
-healthone(https://healthone-xi.vercel.app/)
+![HealthOne Logo](/public/assets/logo.png) 
+<!-- Replace with your logo link -->
+[Live Demo](https://healthone-xi.vercel.app/) 
+
+[YouTube Tutorial](https://www.youtube.com/watch?v=your_video_link)
 
 ## Overview
 **HealthOne** is an innovative healthcare platform that empowers users with seamless access to medical consultations, an integrated pharmacy service, and an AI-driven health assistant. Our mission is to enhance healthcare accessibility through technology, enabling users to receive timely support and treatment, all from the comfort of their homes.
