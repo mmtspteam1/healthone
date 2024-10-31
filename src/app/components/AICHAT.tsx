@@ -28,7 +28,13 @@ const AIChat: React.FC = () => {
 
   const generateAIResponse = async (query: string) => {
     try {
-      const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GOOGLE_GENERATIVE_AI_KEY);
+      const apiKey = process.env.NEXT_PUBLIC_GOOGLE_GENERATIVE_AI_KEY;
+
+      if (!apiKey) {
+        throw new Error("API key is not defined");
+      }
+
+      const genAI = new GoogleGenerativeAI(apiKey);
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       const result = await model.generateContentStream(query);
 
