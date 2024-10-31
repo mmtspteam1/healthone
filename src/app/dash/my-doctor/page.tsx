@@ -9,7 +9,7 @@ const MyDoctorPage = () => {
             <div className="max-w-md mx-auto bg-gray-200 shadow-lg rounded-lg p-6 border-l-4 border-solid">
                 <div className="flex items-center space-x-4 mb-6">
                     <Image 
-                        src="https://th.bing.com/th/id/OIP.xEQ2vYCtGxMTDMHpKauGtwHaHa?w=162&h=180&c=7&r=0&o=5&pid=1.7" 
+                        src="/assets/sara.jpeg" 
                         alt="Doctor's Avatar" 
                         className="w-20 h-20 rounded-full shadow-lg"
                     />

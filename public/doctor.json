@@ -1,132 +1,132 @@
 [
     {
-        "id": 1,
-        "name": "Dr. John Smith",
-        "specialization": "Cardiology",
-        "contact": {
-            "phone": "+1234567890",
-            "email": "john.smith@healthcare.com"
-        },
-        "hospital": "City Heart Hospital",
-        "experience": 10,
-        "location": "New York, NY",
-        "image": "https://static.wixstatic.com/media/f3a064_42e5d36fbca342d9a9c966438c943904~mv2.jpg/v1/fill/w_513,h_576,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Dr_-Micah-Smith-grey-web.jpg"
+      "id": 1,
+      "name": "Dr. John Smith",
+      "specialization": "Cardiology",
+      "contact": {
+        "phone": "+1234567890",
+        "email": "john.smith@healthcare.com"
+      },
+      "hospital": "City Heart Hospital",
+      "experience": 10,
+      "location": "New York, NY",
+      "image": "/assets/dr john smith.jpg"
     },
     {
-        "id": 2,
-        "name": "Dr. Emily Johnson",
-        "specialization": "Neurology",
-        "contact": {
-            "phone": "+1234567891",
-            "email": "emily.johnson@healthcare.com"
-        },
-        "hospital": "Neurological Institute",
-        "experience": 8,
-        "location": "Los Angeles, CA",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCaAryj5vXG0_Qg0_s7mZcs4EMLhKznUuP2g&s"
+      "id": 2,
+      "name": "Dr. Emily Johnson",
+      "specialization": "Neurology",
+      "contact": {
+        "phone": "+1234567891",
+        "email": "emily.johnson@healthcare.com"
+      },
+      "hospital": "Neurological Institute",
+      "experience": 8,
+      "location": "Los Angeles, CA",
+      "image": "/assets/dr emily johnson.jpg"
     },
     {
-        "id": 3,
-        "name": "Dr. Michael Brown",
-        "specialization": "Orthopedics",
-        "contact": {
-            "phone": "+1234567892",
-            "email": "michael.brown@healthcare.com"
-        },
-        "hospital": "Orthopedic Center",
-        "experience": 15,
-        "location": "Chicago, IL",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYEhpWHH_DHOD4PpNK7L7pogQCETu5zdxCQ&s"
+      "id": 3,
+      "name": "Dr. Michael Brown",
+      "specialization": "Orthopedics",
+      "contact": {
+        "phone": "+1234567892",
+        "email": "michael.brown@healthcare.com"
+      },
+      "hospital": "Orthopedic Center",
+      "experience": 15,
+      "location": "Chicago, IL",
+      "image": "/assets/dr michael brown.jpg"
     },
     {
-        "id": 4,
-        "name": "Dr. Sarah Davis",
-        "specialization": "Pediatrics",
-        "contact": {
-            "phone": "+1234567893",
-            "email": "sarah.davis@healthcare.com"
-        },
-        "hospital": "Children's Hospital",
-        "experience": 5,
-        "location": "Houston, TX",
-        "image": "https://pcpp.net/images/SDavis-stethoscope.jpg"
+      "id": 4,
+      "name": "Dr. Sarah Davis",
+      "specialization": "Pediatrics",
+      "contact": {
+        "phone": "+1234567893",
+        "email": "sarah.davis@healthcare.com"
+      },
+      "hospital": "Children's Hospital",
+      "experience": 5,
+      "location": "Houston, TX",
+      "image": "/assets/Dr. Sarah Davis.jpg"
     },
     {
-        "id": 5,
-        "name": "Dr. David Wilson",
-        "specialization": "Dermatology",
-        "contact": {
-            "phone": "+1234567894",
-            "email": "david.wilson@healthcare.com"
-        },
-        "hospital": "Skin Health Clinic",
-        "experience": 12,
-        "location": "Miami, FL",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVDSyigVoc2gaF-_UrwMrr_jARkvZqnXrbNA&s"
+      "id": 5,
+      "name": "Dr. David Wilson",
+      "specialization": "Dermatology",
+      "contact": {
+        "phone": "+1234567894",
+        "email": "david.wilson@healthcare.com"
+      },
+      "hospital": "Skin Health Clinic",
+      "experience": 12,
+      "location": "Miami, FL",
+      "image": "/assets/dr david wilson.jpg"
     },
     {
-        "id": 6,
-        "name": "Dr. Jennifer Miller",
-        "specialization": "Gynecology",
-        "contact": {
-            "phone": "+1234567895",
-            "email": "jennifer.miller@healthcare.com"
-        },
-        "hospital": "Women's Health Center",
-        "experience": 7,
-        "location": "Philadelphia, PA",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdkpGDL73zHUhYcpV_2IODwx_HJMwBGVIAw&s"
+      "id": 6,
+      "name": "Dr. Jennifer Miller",
+      "specialization": "Gynecology",
+      "contact": {
+        "phone": "+1234567895",
+        "email": "jennifer.miller@healthcare.com"
+      },
+      "hospital": "Women's Health Center",
+      "experience": 7,
+      "location": "Philadelphia, PA",
+      "image": "/assets/dr jennifer miller.jpg"
     },
     {
-        "id": 7,
-        "name": "Dr. William Garcia",
-        "specialization": "Psychiatry",
-        "contact": {
-            "phone": "+1234567896",
-            "email": "william.garcia@healthcare.com"
-        },
-        "hospital": "Mental Wellness Institute",
-        "experience": 6,
-        "location": "Phoenix, AZ",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqdJY0hlhn4gf_WziHhSscCxde_DVJjXRIUQ&s"
+      "id": 7,
+      "name": "Dr. William Garcia",
+      "specialization": "Psychiatry",
+      "contact": {
+        "phone": "+1234567896",
+        "email": "william.garcia@healthcare.com"
+      },
+      "hospital": "Mental Wellness Institute",
+      "experience": 6,
+      "location": "Phoenix, AZ",
+      "image": "/assets/dr william gracia.jpg"
     },
     {
-        "id": 8,
-        "name": "Dr. Patricia Martinez",
-        "specialization": "Ophthalmology",
-        "contact": {
-            "phone": "+1234567897",
-            "email": "drpatricamartinez01@gmail.com"
-        },
-        "hospital": "Eye Care Center",
-        "experience": 11,
-        "location": "San Diego, CA",
-        "image": "https://www.aao.org/media/images/dr-patricia-martinez.jpg"
+      "id": 8,
+      "name": "Dr. Patricia Martinez",
+      "specialization": "Ophthalmology",
+      "contact": {
+        "phone": "+1234567897",
+        "email": "drpatricamartinez01@gmail.com"
+      },
+      "hospital": "Eye Care Center",
+      "experience": 11,
+      "location": "San Diego, CA",
+      "image": "/assets/Dr. Patricia Martinez.jpg"
     },
     {
-        "id": 9,
-        "name": "Dr. Richard Lee",
-        "specialization": "Gastroenterology",
-        "contact": {
-            "phone": "+1234567898",
-            "email": "richard.lee@healthcare.com"
-        },
-        "hospital": "Digestive Health Institute",
-        "experience": 9,
-        "location": "Dallas, TX",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2Oz0rnBnS-OAt6UNh8tjHK90TpZaHdgLtQ&s"
+      "id": 9,
+      "name": "Dr. Richard Lee",
+      "specialization": "Gastroenterology",
+      "contact": {
+        "phone": "+1234567898",
+        "email": "richard.lee@healthcare.com"
+      },
+      "hospital": "Digestive Health Institute",
+      "experience": 9,
+      "location": "Dallas, TX",
+      "image": "/assets/dr richard lee.jpg"
     },
     {
-        "id": 10,
-        "name": "Dr. Jessica Taylor",
-        "specialization": "Endocrinology",
-        "contact": {
-            "phone": "+1234567899",
-            "email": "jessica.taylor@healthcare.com"
-        },
-        "hospital": "Diabetes and Hormone Center",
-        "experience": 14,
-        "location": "Seattle, WA",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXiBWd3kbC2lz4A07ydHam9fPxYlnAonV8w&s"
+      "id": 10,
+      "name": "Dr. Jessica Taylor",
+      "specialization": "Endocrinology",
+      "contact": {
+        "phone": "+1234567899",
+        "email": "jessica.taylor@healthcare.com"
+      },
+      "hospital": "Diabetes and Hormone Center",
+      "experience": 14,
+      "location": "Seattle, WA",
+      "image": "/assets/dr jessica taylor.jpg"
     }
-]
+  ]
