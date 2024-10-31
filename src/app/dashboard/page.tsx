@@ -112,7 +112,7 @@ const Dashboard: React.FC = () => {
                 {patients.map((patient) => (
                   <li key={patient._id} className="flex items-center p-4 hover:bg-gray-100">
                     <Image
-                      src={patient.ImageURL}
+                      src={patient.ImageURL || "https://imgv3.fotor.com/images/gallery/cartoon-character-generated-by-Fotor-ai-art-creator.jpg"}
                       alt={patient.Name} 
                       className="w-16 h-16 rounded-full mr-4"
                     />
