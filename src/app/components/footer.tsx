@@ -27,7 +27,7 @@ const RESOURCES: LinkItem[] = [
   { name: "Patient Stories", link: "/patient-stories" },
   { name: "Blog", link: "/blog" },
   { name: "FAQs", link: "/faq" },
-  { name: "Events & Workshops", link: "/events" },
+  { name: "Events & Workshops", link: "/vents" },
 ];
 
 const ABOUT: LinkItem[] = [

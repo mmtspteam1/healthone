@@ -74,7 +74,7 @@ const ContactUs: React.FC = () => {
                                 </div>
                                 <div className="ml-5">
                                     <h4 className="text-teal-500 text-xl mb-1 font-bold">Address</h4>
-                                    <p className="text-gray-800">4671 Sugar Camp Road, Owatonna, Minnesota, 55060</p>
+                                    <p className="text-gray-800">Jnana Prabha, East Point Campus Virgo Nagar Post Avalahalli, Bengaluru, Karnataka 560049</p>
                                 </div>
                             </div>
                             <div className="mb-8 flex items-center">
@@ -83,7 +83,7 @@ const ContactUs: React.FC = () => {
                                 </div>
                                 <div className="ml-5">
                                     <h4 className="text-teal-500 text-xl mb-1 font-bold">Phone</h4>
-                                    <p className="text-gray-800">571-457-2321</p>
+                                    <p className="text-gray-800">+91 7996032595</p>
                                 </div>
                             </div>
                             <div className="mb-8 flex items-center">
@@ -92,7 +92,7 @@ const ContactUs: React.FC = () => {
                                 </div>
                                 <div className="ml-5">
                                     <h4 className="text-teal-500 text-xl mb-1 font-bold">Email</h4>
-                                    <p className="text-gray-800">ntamerrwael@mfano.ga</p>
+                                    <p className="text-gray-800">mmtspteam1@gmail.com</p>
                                 </div>
                             </div>
                         </div>
