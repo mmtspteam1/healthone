@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+
 type Medicine = {
   id: number;
   name: string;
@@ -60,7 +61,9 @@ export default function Home() {
                 <Image
                   src={medicine.image}
                   alt={medicine.name}
-                  className="w-full h-32 object-cover rounded-t-lg" // Adjust the image class
+                  width={300} // Adjust width as per your layout
+                  height={200} // Adjust height as per your layout
+                  className="w-full h-32 object-cover rounded-t-lg"
                 />
                 <div className="p-4">
                   <h2 className="text-lg font-semibold">{medicine.name}</h2>
