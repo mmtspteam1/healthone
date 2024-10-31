@@ -106,14 +106,6 @@ For support or inquiries, please contact:
 ## Demo
 Experience how HealthOne works with our demo application [here](https://healthone-xi.vercel.app/).
 
-## Submission Information
-To ensure proper integration of your application, please have the following information ready for submission:
-- App Name: HealthOne
-- App URL: [Your App URL]
-- App Icon: [https://healthone-xi.vercel.app/]
-- App Logo: [\public\assets\logo.png]
-- Brief description of the application and its features.
-
 ## Development Modes
 - **Development Mode**: Allows testing with all features enabled but limited to mock data.
 - **Production Mode**: Full feature access with real data, suitable for end-users.
